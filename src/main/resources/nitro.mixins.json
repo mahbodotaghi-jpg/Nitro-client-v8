@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "dev.nitro.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CameraMixin",
+    "EntityMixin",
+    "KeyboardInputMixin",
+    "HandledScreenAccessor",
+    "ClientPlayerInteractionManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
